@@ -9107,7 +9107,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const superagent_1 = __importDefault(__webpack_require__(524));
 const scraping = (url) => __awaiter(void 0, void 0, void 0, function* () {
     const result = yield superagent_1.default.get(url);
-    console.log(result.body);
+    console.log(result.text);
 });
 exports.default = scraping;
 
