@@ -14,7 +14,7 @@ const scraping = async (url: string): Promise<Array<string | undefined>> => {
       }
     })
   })
-  return contents
+  return contests
 }
 
 export default scraping
