@@ -5,4 +5,4 @@ runs:
   using: 'node12'
   main: 'dist/index.js'
 input:
-  WebhookUrl: ${{ secrets.WebhookUrl }}
+  WebhookUrl: ${{ secrets.WEBHOOKURL }}
