@@ -4,6 +4,6 @@ author: 'mugi111'
 runs:
   using: 'node12'
   main: 'dist/index.js'
-input:
+inputs:
   WebhookUrl:
     required: true
